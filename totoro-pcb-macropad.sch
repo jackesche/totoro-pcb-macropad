@@ -354,10 +354,6 @@ Connection ~ 2600 2250
 Wire Wire Line
 	2600 2250 2600 2400
 Wire Wire Line
-	5250 1800 5350 1800
-Wire Wire Line
-	5350 1800 5350 1850
-Wire Wire Line
 	5250 1700 5350 1700
 Wire Wire Line
 	5350 1700 5350 1650
@@ -700,12 +696,12 @@ $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5F4F7593
-P 5350 1850
-F 0 "#PWR0105" H 5350 1600 50  0001 C CNN
-F 1 "GND" H 5355 1677 50  0000 C CNN
-F 2 "" H 5350 1850 50  0001 C CNN
-F 3 "" H 5350 1850 50  0001 C CNN
-	1    5350 1850
+P 5600 1850
+F 0 "#PWR0105" H 5600 1600 50  0001 C CNN
+F 1 "GND" H 5605 1677 50  0000 C CNN
+F 2 "" H 5600 1850 50  0001 C CNN
+F 3 "" H 5600 1850 50  0001 C CNN
+	1    5600 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -917,4 +913,20 @@ F 3 "" H 5350 1650 50  0001 C CNN
 	1    5350 1650
 	1    0    0    -1  
 $EndComp
+Text GLabel 5250 2000 2    50   Input ~ 0
+COL2
+Wire Wire Line
+	5600 1800 5600 1850
+Wire Wire Line
+	5250 1800 5600 1800
+Text GLabel 5250 2100 2    50   Input ~ 0
+COL1
+Text GLabel 5250 2200 2    50   Input ~ 0
+COL0
+Text GLabel 5250 2300 2    50   Input ~ 0
+ROW0
+Text GLabel 5250 2400 2    50   Input ~ 0
+ROW1
+Text GLabel 5250 2500 2    50   Input ~ 0
+ROW2
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-19466196961556513
+19467796916019733
 Alps_Only
 ALPS-1.5U
 
@@ -61144,6 +61144,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PEC11R-4215F-S0024
+XDCR_PEC11R-4215F-S0024
+
+
+0
+7
+7
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
